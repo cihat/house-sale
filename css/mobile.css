@@ -8,6 +8,7 @@ html {
   justify-content: center; }
   .container-project header nav .project-logo {
     margin: auto;
+    margin-top: 1rem;
     margin-bottom: 16px; }
   .container-project header nav .navbar {
     margin-right: 16px; }
