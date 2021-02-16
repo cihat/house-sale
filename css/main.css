@@ -150,7 +150,8 @@
     margin-bottom: 6rem; }
     .container-project .company .text {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      margin-right: 3.8rem; }
       .container-project .company .text h1 {
         color: #323232;
         font-size: 2.25rem;
@@ -195,7 +196,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      padding-left: 10.375rem; }
+      padding: 10.375rem; }
       .container-project .phone .container h1 {
         color: #323232;
         font-weight: 600;
