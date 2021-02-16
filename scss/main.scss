@@ -15,7 +15,7 @@
 }
 
 .container-project {
-  max-width: calc(100vw);
+  // max-width: calc(100vw);
   // height: calc(100%);
   margin: auto;
   display: flex;
@@ -23,8 +23,8 @@
 
   header {
     max-height: 54.0625rem;
+    max-height: 54.0625rem;
     margin-bottom: 4.625rem;
-    height: 54.0625rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,7 +38,7 @@
       ),
       url("https://user-images.githubusercontent.com/57585087/108034226-43a76e80-7046-11eb-9245-10db00f77f40.png")
         no-repeat;
-    background-size: 100vw auto;
+    background-size: cover;
 
     nav {
       display: flex;
@@ -48,7 +48,7 @@
       margin-bottom: 10.8125rem;
 
       .project-logo {
-        // margin-right: 24.0625rem;
+        margin-right: 24.0625rem;
         width: 6.875rem;
       }
 
@@ -107,8 +107,8 @@
     }
 
     .search-bar {
-      width: 77.5625rem;
-      height: 10.875rem;
+      max-width: 77.5625rem;
+      max-height: 10.875rem;
       margin-left: 6.25rem;
       margin-bottom: 4.5625rem;
       background-color: #fff;
@@ -127,8 +127,8 @@
         }
 
         .box-2 {
-          width: 51.75rem;
           max-width: 51.75rem;
+          width: 51.75rem;
           height: 3.8125rem;
           background-color: #fff0cb;
           margin-bottom: 0.6875rem;
@@ -216,7 +216,7 @@
     display: flex;
     margin-right: 1.25rem;
     margin: auto;
-    width: 77.4375rem;
+    // width: 77.4375rem;
     justify-content: space-around;
     margin-bottom: 6rem;
 
@@ -279,7 +279,7 @@
     margin-bottom: 7.625rem;
 
     .container {
-      width: 77.5625rem;
+      // width: 77.5625rem;
       height: 27.3125rem;
       background: #fff5da;
       display: flex;
@@ -305,7 +305,7 @@
       .input-number {
         display: flex;
         background-color: white;
-        width: 43.9375rem;
+        max-width: 43.9375rem;
         justify-content: center;
         align-items: center;
         border: 0.0625rem solid #000;
@@ -351,7 +351,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 77.875rem;
+    max-width: 77.875rem;
     margin-bottom: 6.875rem;
 
     h1 {
@@ -378,7 +378,7 @@
   }
 
   .more-ideas {
-    width: 78rem;
+    max-width: 78rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -399,7 +399,7 @@
       display: flex;
 
       .left-text {
-        width: 38.875rem;
+        max-width: 38.875rem;
         margin-right: 3.375rem;
 
         p {
@@ -449,12 +449,12 @@
 
   .section-text {
     display: flex;
-    width: 78.125rem;
+    // max-width: 78.125rem;
     margin: auto;
     margin-bottom: 7rem;
 
     .left {
-      width: 39.8125rem;
+      max-width: 39.8125rem;
       padding-top: 8.1875;
       margin-right: 2.6875rem;
 
@@ -501,22 +501,21 @@
   footer {
     display: flex;
     flex-direction: column;
-    width: calc(100vw - 0.9375rem);
+    width: 100%;
     background: #093a7a;
     margin: auto;
     text-align: center;
     margin-top: 2.8125rem;
-    // margin-bottom: 46px;
     justify-content: flex-start;
 
     .container {
-      max-width: 90rem;
+      // max-width: 90rem;
       margin: auto;
 
       .top {
         margin-top: 2.8125rem;
         margin-bottom: 1.9375rem;
-        width: 79.125rem;
+        // max-width: 79.125rem;
         ul {
           display: flex;
           justify-content: space-between;

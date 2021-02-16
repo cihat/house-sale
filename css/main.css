@@ -8,19 +8,18 @@
     outline: 0; }
 
 .container-project {
-  max-width: calc(100vw);
   margin: auto;
   display: flex;
   flex-direction: column; }
   .container-project header {
     max-height: 54.0625rem;
+    max-height: 54.0625rem;
     margin-bottom: 4.625rem;
-    height: 54.0625rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76a6ef 100.51%), url("https://user-images.githubusercontent.com/57585087/108034226-43a76e80-7046-11eb-9245-10db00f77f40.png") no-repeat;
-    background-size: 100vw auto; }
+    background-size: cover; }
     .container-project header nav {
       display: flex;
       justify-content: space-between;
@@ -28,6 +27,7 @@
       margin-left: 6.25rem;
       margin-bottom: 10.8125rem; }
       .container-project header nav .project-logo {
+        margin-right: 24.0625rem;
         width: 6.875rem; }
       .container-project header nav .navbar {
         max-width: 59.1875rem; }
@@ -67,8 +67,8 @@
         line-height: 2.4725rem;
         color: #fff; }
     .container-project header .search-bar {
-      width: 77.5625rem;
-      height: 10.875rem;
+      max-width: 77.5625rem;
+      max-height: 10.875rem;
       margin-left: 6.25rem;
       margin-bottom: 4.5625rem;
       background-color: #fff;
@@ -84,8 +84,8 @@
           background-color: #fff0cb;
           margin-bottom: 0.6875rem; }
         .container-project header .search-bar ul .box-2 {
-          width: 51.75rem;
           max-width: 51.75rem;
+          width: 51.75rem;
           height: 3.8125rem;
           background-color: #fff0cb;
           margin-bottom: 0.6875rem; }
@@ -146,7 +146,6 @@
     display: flex;
     margin-right: 1.25rem;
     margin: auto;
-    width: 77.4375rem;
     justify-content: space-around;
     margin-bottom: 6rem; }
     .container-project .company .text {
@@ -190,7 +189,6 @@
     padding: 7.9375rem auto 6.5rem 10.375rem;
     margin-bottom: 7.625rem; }
     .container-project .phone .container {
-      width: 77.5625rem;
       height: 27.3125rem;
       background: #fff5da;
       display: flex;
@@ -212,7 +210,7 @@
       .container-project .phone .container .input-number {
         display: flex;
         background-color: white;
-        width: 43.9375rem;
+        max-width: 43.9375rem;
         justify-content: center;
         align-items: center;
         border: 0.0625rem solid #000; }
@@ -245,7 +243,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 77.875rem;
+    max-width: 77.875rem;
     margin-bottom: 6.875rem; }
     .container-project .photos-sec h1 {
       color: #323232;
@@ -262,7 +260,7 @@
         .container-project .photos-sec ul li:nth-child(4n) {
           margin-right: 0px; }
   .container-project .more-ideas {
-    width: 78rem;
+    max-width: 78rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -279,7 +277,7 @@
     .container-project .more-ideas .container {
       display: flex; }
       .container-project .more-ideas .container .left-text {
-        width: 38.875rem;
+        max-width: 38.875rem;
         margin-right: 3.375rem; }
         .container-project .more-ideas .container .left-text p {
           padding-top: 1.375rem;
@@ -310,11 +308,10 @@
             height: 27.5625rem; }
   .container-project .section-text {
     display: flex;
-    width: 78.125rem;
     margin: auto;
     margin-bottom: 7rem; }
     .container-project .section-text .left {
-      width: 39.8125rem;
+      max-width: 39.8125rem;
       padding-top: 8.1875;
       margin-right: 2.6875rem; }
       .container-project .section-text .left p {
@@ -346,19 +343,17 @@
   .container-project footer {
     display: flex;
     flex-direction: column;
-    width: calc(100vw - 0.9375rem);
+    width: 100%;
     background: #093a7a;
     margin: auto;
     text-align: center;
     margin-top: 2.8125rem;
     justify-content: flex-start; }
     .container-project footer .container {
-      max-width: 90rem;
       margin: auto; }
       .container-project footer .container .top {
         margin-top: 2.8125rem;
-        margin-bottom: 1.9375rem;
-        width: 79.125rem; }
+        margin-bottom: 1.9375rem; }
         .container-project footer .container .top ul {
           display: flex;
           justify-content: space-between; }
