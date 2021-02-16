@@ -15,15 +15,14 @@
 }
 
 .container-project {
-  // max-width: calc(100vw);
+  max-width: calc(100vw);
   // height: calc(100%);
   margin: auto;
   display: flex;
   flex-direction: column;
 
   header {
-    max-width: 90rem;
-    // max-height: 54.0625rem;
+    max-height: 54.0625rem;
     margin-bottom: 4.625rem;
     height: 54.0625rem;
     display: flex;
@@ -39,7 +38,7 @@
       ),
       url("https://user-images.githubusercontent.com/57585087/108034226-43a76e80-7046-11eb-9245-10db00f77f40.png")
         no-repeat;
-    background-size: 100% auto;
+    background-size: 100vw auto;
 
     nav {
       display: flex;
