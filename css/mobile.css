@@ -5,13 +5,19 @@ html {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .container-project header nav .project-logo {
     margin: auto;
     margin-top: 1rem;
-    margin-bottom: 16px; }
+    margin-bottom: 2rem;
+    text-align: center; }
+    .container-project header nav .project-logo a img {
+      width: 10rem; }
   .container-project header nav .navbar {
-    margin-right: 16px; }
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem; }
     .container-project header nav .navbar ul {
       margin: auto; }
 
@@ -40,6 +46,28 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .container-project .company .text {
+    text-align: center;
+    margin: auto; }
+    .container-project .company .text .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 5rem; }
+  .container-project .company .photo {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    margin-top: 1rem; }
+    .container-project .company .photo .alt img {
+      display: none; }
+    .container-project .company .photo img {
+      margin: auto;
+      text-align: center;
+      width: 80%;
+      height: auto;
+      margin-left: 3rem; }
 
 .container-project .phone {
   margin-left: auto;
@@ -59,17 +87,25 @@ html {
     margin-right: auto;
     margin-left: auto; }
 
-.container-project .more-ideas .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .container-project .more-ideas .container .left-text {
-    margin-bottom: 54px; }
+.container-project .more-ideas {
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .container-project .more-ideas .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+    .container-project .more-ideas .container .left-text {
+      margin-bottom: 54px; }
 
 .container-project .section-text {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
 
 .container-project footer .container .top {
   text-align: center;
